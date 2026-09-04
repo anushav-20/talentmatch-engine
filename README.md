@@ -13,6 +13,20 @@ engine can be swapped out (TF-IDF today, embeddings tomorrow) without touching t
 - **Named entity recognition** (spaCy) surfaces tools, products, and organizations mentioned in each resume
 - Model-agnostic scoring pipeline - the `matcher.py` interface is designed so the TF-IDF step could later be swapped for sentence embeddings without changing the API contract
 
+## Sample Output
+
+The chart below is real output from the matching engine, ranking three sample
+resumes against a backend developer job description (not a mockup):
+
+![Real candidate ranking output](images/candidate_ranking.png)
+
+## Screenshots
+
+Add your own screenshots here once you run the app locally - for example,
+the main dashboard view and one key interaction (e.g. a completed action or
+a filled-in result). Save images under an `images/` folder and reference them
+like: `![Dashboard](images/dashboard.png)`
+
 ## Getting Started
 
 ### Backend
